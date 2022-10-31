@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- style sheet links, fonts we're using, w3css is the css library we used.-->
+
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <title>JAM</title>
+    </head>
+
+    <body>
+        <header class="w3-container w3-center" style="text-shadow:3px 3px 0 #444">
+            <h1> JAM </h1>
+        </header>
+
+        <!-- place for API information -->
+        <div>
+            <div class="row">
+
+                <h4> Search for an Event: </h4>
+                <input type="text" class="city" id="zipCode" placeholder="Enter the zip code here">
+                <button type="submit" id="searchbutton"> Submit </button>
+
+            </div>
+        </div>
+
+        <div id="eventsBox" class="row">
+            <h2 id="heading"></h2>
+        
+          </div>
+          <div id="errorMessage">
+        
+          </div>
+        
+          <!-- Added a few links for safe travel to and from events-->
+          <div id="cab-service">
+        
+            <h4>Cab services:</h4>
+            <a href="https://ride.lyft.com/" target="_blank">Lyft</a>
+            <a href="https://www.uber.com/" target="_blank">Uber</a>
+        
+          </div>
+        
+          <script src="./assets/js/script.js"></script>
+    </body>
+
+</html>
