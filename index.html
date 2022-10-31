@@ -9,13 +9,14 @@
       <title>JAM</title>
     </head>
 
-    <body>
-        <header class="w3-container w3-center" style="text-shadow:3px 3px 0 #444">
+    <div>
+        
+        <header class="w3-container w3-center w3-purple w3-margin" style="text-shadow:3px 3px 0 #444">
             <h1> JAM </h1>
         </header>
 
         <!-- place for API information -->
-        <div>
+        <div class="w3-margin">
             <div class="row">
 
                 <h4> Search for an Event: </h4>
@@ -27,22 +28,28 @@
 
         <div id="eventsBox" class="row">
             <h2 id="heading"></h2>
+            
+        </div>
+        <div id="errorMessage">
+            
+        </div>
         
-          </div>
-          <div id="errorMessage">
-        
-          </div>
-        
-          <!-- Added a few links for safe travel to and from events-->
-          <div id="cab-service">
+        <!-- Added a few links for safe travel to and from events-->
+        <div id="cab-service" class="w3-margin">
         
             <h4>Cab services:</h4>
             <a href="https://ride.lyft.com/" target="_blank">Lyft</a>
             <a href="https://www.uber.com/" target="_blank">Uber</a>
         
-          </div>
+        </div>
+
+        <footer class="w3-container w3-center w3-purple w3-margin">
+            <h5> Made with❤️ by JAM </h5>
+        </footer>
+
+    </div>
         
-          <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
     </body>
 
 </html>
